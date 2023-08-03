@@ -1,0 +1,70 @@
+.App{
+  display: flex;
+  font-family:'IBM Plex Sana  Thai Looped',
+  sans-serif ;
+}
+.body_container{
+  flex:1;
+  background-color:lightpink;
+}
+.body_container{
+  height:100vh;
+}
+.form_container{
+  margin-left:0;
+  margin:auto;
+  width:70%;
+  height:68%;
+  background-color: lightpink;
+}
+.form_container{
+  text-align: center;
+  padding:23px;
+  
+}
+.a{
+  width:40%;
+ height:0.1rem;
+ padding:12px;
+ text-align: center;
+}
+.b{
+width:27%;
+margin-left:-13%;
+height:0.1rem;
+padding:12px;
+}
+.c{
+  width:40%;
+ height:0.1rem;
+ padding:12px;
+ text-align: left;
+}
+.d{
+  width:40%;
+ height:10%;
+ padding:12px;
+ text-align: left;
+
+
+}
+.form_container input:hover{
+  cursor:pointer;
+  box-shadow: inset;
+  border: 5px solid rgb(117, 214, 231);
+}
+.sum{
+  text-align: center;
+}
+.sum button{
+  color:white;
+  font-size: 15px;
+  background-color: skyblue;
+  padding:8px;
+  width:7rem;
+  font-weight: bold;
+  border:3px solid lightpink;
+}
+.sum button:hover{
+  border:3px solid skyblue;
+}
